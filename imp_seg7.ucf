@@ -1,0 +1,44 @@
+NET "clock" LOC=p127;
+
+NET "seg[0]" LOC=p40; //a
+NET "seg[1]" LOC=p35; //b
+NET "seg[2]" LOC=p32; //c
+NET "seg[3]" LOC=p30; //d
+NET "seg[4]" LOC=p27; //e
+NET "seg[5]" LOC=p25; //f
+NET "seg[6]" LOC=p23; //g
+
+NET "digit[0]" LOC=p31; 
+NET "digit[1]" LOC=p33; 
+NET "digit[2]" LOC=p36; 
+NET "digit[3]" LOC=p41;
+
+NET "switch_1" LOC=p52; // select between numbers
+NET "switch_2" LOC=p53; // LSD and MSD
+NET "switch_3" LOC=p55; // Add
+NET "switch_4" LOC=p56; // Sub
+NET "switch_5" LOC=p59; // Mul
+NET "switch_6" LOC=p60; // Div
+NET "switch_7" LOC=p63; // Equ
+NET "switch_8" LOC=p68; // clr
+
+NET "push_1" LOC=p44;
+NET "push_2" LOC=p46; 
+NET "push_3" LOC=p47; 
+NET "push_4" LOC=p50; 
+NET "push_5" LOC=p51; 
+
+NET "led_1" LOC=p70;
+NET "led_2" LOC=p77; 
+NET "led_3" LOC=p69; 
+NET "led_4" LOC=p76; 
+NET "led_5" LOC=p74; 
+NET "led_6" LOC=p79; 
+NET "led_7" LOC=p73; 
+NET "led_8" LOC=p78; 
+
+
+
+
+
+
